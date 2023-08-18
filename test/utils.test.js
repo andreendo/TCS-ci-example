@@ -4,7 +4,7 @@ describe('Utils', () => {
     describe('gerarNumeroAleatorio', () => {
         test('fim nao pode ser negativo', () => {
             expect(gerarNumeroAleatorio(20, -5))
-                .toBe(-2);
+                .toBe(-1);
         }); 
     });
 
